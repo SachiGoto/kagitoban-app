@@ -2,12 +2,12 @@ name: kagitoban
 description: "A new Flutter project."
 
 # Prevent accidental publishing to pub.dev.
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.3.1 <4.0.0'
+  sdk: ">=3.3.1 <4.0.0"
 
 dependencies:
   flutter:
@@ -20,6 +20,7 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^3.0.0
+  cupertino_icons: ^1.0.6
 
 flutter:
   uses-material-design: true
